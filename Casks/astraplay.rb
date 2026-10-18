@@ -1,9 +1,9 @@
 cask "astraplay" do
   arch arm: "arm64", intel: "x86_64"
 
-  version "2.12.17"
-  sha256 arm:   "1be20e8ef53cd3e0408996c9c771af22038f072bdcaefe90972bec642fdf86ed",
-         intel: "74b66160a857de23e0f2213801efe49d5812b4688fa3aa2ee5e3057d6da094cf"
+  version "2.12.18"
+  sha256 arm:   "d55d2aae17b58309f897d2721f9bb1025edb15b66b64b771ba3c7f6b4cc84bb6",
+         intel: "42b282a76d45d85829b935db1eb8315322c53379c8575858deaee5433e54b9eb"
 
   url "https://github.com/nileshchakraborty/AstraPlay/releases/download/v#{version}/AstraPlay-macOS-#{arch}.dmg"
   name "AstraPlay"
